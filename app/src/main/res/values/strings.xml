@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Facebook Appbar</string>
+    <string name="title_home">Home</string>
+    <string name="search">Search</string>
+    <string name="facebook">facebook</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pymk">People you may know</string>
+    <string name="chats">Chats</string>
+    <string name="notification">Notification</string>
+    <string name="videos">Videos</string>
+    <string name="marketplace">Marketplace</string>
+    <string name="menu">Menu</string>
+</resources>

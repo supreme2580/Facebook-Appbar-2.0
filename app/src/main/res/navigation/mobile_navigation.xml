@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.supremelabs.facebookappbar.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_peopleyoumayknow"
+        android:name="com.supremelabs.facebookappbar.ui.peopleyoumayknow.PeopleYouMayKnowFragment"
+        android:label="@string/pymk"
+        tools:layout="@layout/fragment_people_you_may_know" />
+
+    <fragment
+        android:id="@+id/navigation_chats"
+        android:name="com.supremelabs.facebookappbar.ui.chats.ChatsFragment"
+        android:label="@string/chats"
+        tools:layout="@layout/fragment_chats" />
+
+    <fragment
+        android:id="@+id/navigation_notification"
+        android:name="com.supremelabs.facebookappbar.ui.notifications.NotificationFragment"
+        android:label="@string/notification"
+        tools:layout="@layout/fragment_notification" />
+
+    <fragment
+        android:id="@+id/navigation_videos"
+        android:name="com.supremelabs.facebookappbar.ui.videos.VideoFragment"
+        android:label="@string/videos"
+        tools:layout="@layout/fragment_video" />
+
+</navigation>
